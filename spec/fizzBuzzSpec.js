@@ -8,6 +8,6 @@ describe("fizzbuzz", function () {
 
   it('expect 1 to return 1', function () {
     expect(fizzBuzz.number(1)).toEqual(1);
-  }
+  });
 
-}
+});
