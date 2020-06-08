@@ -19,9 +19,11 @@ describe("fizzbuzz", function () {
     expect(fizzBuzz.number(5)).toEqual('Buzz');
   });
 
-  it('expect 6 to return 6', function () {
+  it('expect 6 to return Fizz', function () {
     expect(fizzBuzz.number(6)).toEqual('Fizz');
   });
 
-
+  it('expect 10 to return Buzz', function () {
+    expect(fizzBuzz.number(10)).toEqual('Buzz');
+  });
 });
